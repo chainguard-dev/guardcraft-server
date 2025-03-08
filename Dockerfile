@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/jre:latest-dev@sha256:1314898643cd00ad32ed6ace3aed12b14bd8129268649734d6300339fdc15db7
+FROM cgr.dev/chainguard/jre:latest-dev@sha256:2e5613d595923e16ac076e579d1bfdb6794a88d3c7e2666a6a02f4e395b70031
 
 USER root
 RUN apk update && apk add curl libudev jq
